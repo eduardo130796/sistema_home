@@ -3,7 +3,6 @@ from dashboard import dashboard
 from clientes import clientes
 from produtos import produtos
 from orcamentos import orcamentos
-from pedidos import pedidos
 from producao import producao
 from financeiro import financeiro
 from area_cliente import area_cliente
@@ -34,3 +33,4 @@ elif pagina == "Financeiro":
     financeiro()
 else:
     area_cliente()
+
